@@ -8,8 +8,16 @@ import {ReactElement} from 'react'
 import {BiCameraMovie} from 'react-icons/bi'
 import {AiOutlineSearch} from 'react-icons/ai'
 
+//Hooks
+import {useState} from 'react'
+
+//Types
+import { Movie } from '../../../../types/movieType'
+import { Request } from '../../../../types/requestType'
+
 const Header = ():ReactElement => {
 
+    
     return(
         <header>
             <a href="" className={styles.logo}>
