@@ -7,6 +7,8 @@ import { Movie } from '../../types/movieType'
 //Icons
 import {BsStar} from 'react-icons/bs'
 
+import { Link } from 'react-router-dom'
+
 interface cardProps extends Movie{}
 
 const MovieCard = (props:cardProps):ReactElement => {
@@ -17,10 +19,10 @@ const MovieCard = (props:cardProps):ReactElement => {
             <h1>{props.title}</h1>
             <span className={styles.avaliation}>
                 <span><BsStar/></span>
-                <p>{props.id}</p>
+                <p>{props.vote_average}</p>
             </span>
             <div className={styles.btn_container}>
-                <button>Detalhes</button>
+                <Link to={`movie/${props.id}`}>Detalhes</Link>
             </div>
         </div>
     )

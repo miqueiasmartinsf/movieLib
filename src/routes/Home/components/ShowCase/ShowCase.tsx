@@ -30,12 +30,16 @@ const ShowCase = ():ReactElement => {
         console.log(movies);
     }
 
+    useEffect(() => {
+        fetchRatedMovies();
+    },[])
+
     return(
         <div className={styles.showcase}>
-            <h1 onClick={fetchRatedMovies} className={styles.page_title}>Melhores Filmes</h1>
+            <h1 className={styles.page_title}>Melhores Filmes</h1>
             <div className={styles.movies_container}>
               {movies?.map((movie):JSX.Element => {
-                return <MovieCard title={movie.title} vote_avarage={movie.vote_avarage} overview={movie.overview} poster_path={movie.poster_path} key={movie.id}  />
+                return <MovieCard title={movie.title} vote_average={movie.vote_average} overview={movie.overview} poster_path={movie.poster_path} id={movie.id} key={movie.id}  />
               })}
             </div>
         </div>

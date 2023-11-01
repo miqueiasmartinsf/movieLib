@@ -5,7 +5,7 @@ import { BrowserRouter,Routes,Route } from 'react-router-dom'
 
 //Routes
 import Home from './routes/Home/Home'
-import Movie from './routes/Movie/Movie'
+import Movie from './routes/MoviePage/MoviePage'
 
 
 function App() {

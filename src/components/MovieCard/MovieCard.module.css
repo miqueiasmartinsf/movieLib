@@ -23,6 +23,7 @@
     display: flex;
     margin-top: 25px;
     font-size: 22px;
+    gap: 10px;
 }
 
 .avaliation p{
@@ -31,6 +32,7 @@
 
 .avaliation span{
     color: yellow;
+    display: flex;
 }
 
 .btn_container{
@@ -41,7 +43,7 @@
     margin-top: 30px;
 }
 
-.btn_container button{
+.btn_container a{
     background-color:#C8AA45;
     color: black;
     font-weight: 600;
@@ -52,4 +54,8 @@
     border: none;
     border-radius: 6px;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 }

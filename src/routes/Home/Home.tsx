@@ -1,19 +1,16 @@
-import { ReactElement } from "react"
-
+import { ReactElement } from "react";
 
 //Components
-import Header from "./components/Header/Header"
-import ShowCase from "./components/ShowCase/ShowCase"
+import Header from "../../components/Header/Header";
+import ShowCase from "./components/ShowCase/ShowCase";
 
-
-const Home = ():ReactElement => {
-
-    return(
+const Home = (): ReactElement => {
+    return (
         <div>
-            <Header/>    
-            <ShowCase/>
+            <Header />
+            <ShowCase />
         </div>
-    )
-}
+    );
+};
 
-export default Home 
+export default Home;
