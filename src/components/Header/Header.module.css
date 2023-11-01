@@ -19,12 +19,15 @@ header{
 .logo h1{
     font-size: 32px;
 
+
 }
 
 .logo span{
     display: flex;
     justify-content: center;
     font-size: 42px;
+    display: flex;
+    align-items: center;
 
 }
 
@@ -43,7 +46,7 @@ header{
     color: gray;
 }
 
-.input_container button{
+.input_container a{
     padding: .6rem .8rem;
     background-color: orange;
     border: none;
@@ -52,4 +55,5 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: default;
 }

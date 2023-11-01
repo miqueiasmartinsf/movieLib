@@ -18,6 +18,9 @@ import { Request } from "../../types/requestType";
 import { Link } from "react-router-dom";
 
 const Header = (): ReactElement => {
+
+    const[search,setSearch] = useState<string>('');
+
     return (
         <header>
             <Link to={'/'} className={styles.logo}>
@@ -32,10 +35,12 @@ const Header = (): ReactElement => {
                     name=""
                     id=""
                     placeholder="Busque por um filme"
+                    value={search}
+                    onChange={(e) => setSearch(e.target.value)}
                 />
-                <button>
+                <Link to={search.length === 0 ? ('') : (`/search/${search}`)}>
                     <AiOutlineSearch />
-                </button>
+                </Link>
             </div>
         </header>
     );

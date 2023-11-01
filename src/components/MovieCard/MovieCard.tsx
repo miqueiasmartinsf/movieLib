@@ -22,7 +22,7 @@ const MovieCard = (props:cardProps):ReactElement => {
                 <p>{props.vote_average}</p>
             </span>
             <div className={styles.btn_container}>
-                <Link to={`movie/${props.id}`}>Detalhes</Link>
+                <Link to={`/movie/${props.id}`}>Detalhes</Link>
             </div>
         </div>
     )
