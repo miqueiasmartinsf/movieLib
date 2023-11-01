@@ -14,16 +14,15 @@ import { useState } from "react";
 import { Movie } from "../../types/movieType";
 import { Request } from "../../types/requestType";
 
-//ReactRouter 
+//ReactRouter
 import { Link } from "react-router-dom";
 
 const Header = (): ReactElement => {
-
-    const[search,setSearch] = useState<string>('');
+    const [search, setSearch] = useState<string>("");
 
     return (
         <header>
-            <Link to={'/'} className={styles.logo}>
+            <Link to={"/"} className={styles.logo}>
                 <span>
                     <BiCameraMovie />
                 </span>
@@ -38,7 +37,7 @@ const Header = (): ReactElement => {
                     value={search}
                     onChange={(e) => setSearch(e.target.value)}
                 />
-                <Link to={search.length === 0 ? ('') : (`/search/${search}`)}>
+                <Link to={search.length === 0 ? "" : `/search/${search}`}>
                     <AiOutlineSearch />
                 </Link>
             </div>

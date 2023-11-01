@@ -5,12 +5,9 @@ import { Movie } from "../types/movieType";
 import { Request } from "../types/requestType";
 
 interface IAppContext {
-    ratedMoviesList:Movie[];
-    
+    ratedMoviesList: Movie[];
 }
-
-
 
 const appContext = createContext(null);
 
-export default appContext
+export default appContext;

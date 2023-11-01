@@ -1,40 +1,38 @@
-
-
-.movie_details{
+.movie_details {
     margin: 0 auto;
     width: 900px;
     padding: 50px 0px;
 }
 
-.img_container img{
+.img_container img {
     width: 600px;
     height: 850px;
 }
 
-.img_container{
+.img_container {
     text-align: center;
 }
 
-.img_container h1{
+.img_container h1 {
     margin-top: 20px;
     text-align: center;
     font-size: 38px;
     margin-bottom: 20px;
 }
 
-.img_container span{
+.img_container span {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
 }
 
-.img_container p{
+.img_container p {
     margin-top: 20px;
     font-size: 24px;
 }
 
-.movie_description{
+.movie_description {
     width: 600px;
     display: flex;
     flex-direction: column;
@@ -42,6 +40,6 @@
     margin-top: 50px;
 }
 
-.info h2{
+.info h2 {
     margin-bottom: 10px;
 }

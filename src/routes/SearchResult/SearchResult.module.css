@@ -1,14 +1,13 @@
-
-.page_title{
+.page_title {
     text-align: center;
     margin-top: 20px;
 }
 
-.page_title span{
+.page_title span {
     color: yellow;
 }
 
-.results{
+.results {
     margin-top: 30px;
     display: flex;
     flex-wrap: wrap;

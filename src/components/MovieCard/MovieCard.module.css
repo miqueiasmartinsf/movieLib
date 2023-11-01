@@ -1,16 +1,16 @@
-.movie_card{
+.movie_card {
     padding: 20px;
     width: 450px;
     height: 830px;
-    background-color:#131313;
+    background-color: #131313;
 }
 
-.movie_card img{
+.movie_card img {
     width: 100%;
     height: 600px;
 }
 
-.movie_card h1{
+.movie_card h1 {
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -19,23 +19,23 @@
     text-align: left;
 }
 
-.avaliation{
+.avaliation {
     display: flex;
     margin-top: 25px;
     font-size: 22px;
     gap: 10px;
 }
 
-.avaliation p{
+.avaliation p {
     color: white;
 }
 
-.avaliation span{
+.avaliation span {
     color: yellow;
     display: flex;
 }
 
-.btn_container{
+.btn_container {
     width: 100%;
     height: 60px;
     display: flex;
@@ -43,8 +43,8 @@
     margin-top: 30px;
 }
 
-.btn_container a{
-    background-color:#C8AA45;
+.btn_container a {
+    background-color: #c8aa45;
     color: black;
     font-weight: 600;
     font-size: 19px;

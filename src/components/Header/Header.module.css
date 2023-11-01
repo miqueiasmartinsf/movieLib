@@ -1,4 +1,4 @@
-header{
+header {
     width: 100%;
     height: 80px;
     background-color: black;
@@ -9,36 +9,33 @@ header{
     padding: 0px 40px;
 }
 
-.logo{
+.logo {
     display: flex;
     align-items: center;
     gap: 10px;
     text-decoration: none;
 }
 
-.logo h1{
+.logo h1 {
     font-size: 32px;
-
-
 }
 
-.logo span{
+.logo span {
     display: flex;
     justify-content: center;
     font-size: 42px;
     display: flex;
     align-items: center;
-
 }
 
-.input_container{
+.input_container {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.input_container input{
-    padding: .5rem .7rem;
+.input_container input {
+    padding: 0.5rem 0.7rem;
     border-radius: 5px;
     outline: none;
     border: none;
@@ -46,8 +43,8 @@ header{
     color: gray;
 }
 
-.input_container a{
-    padding: .6rem .8rem;
+.input_container a {
+    padding: 0.6rem 0.8rem;
     background-color: orange;
     border: none;
     border-radius: 5px;
