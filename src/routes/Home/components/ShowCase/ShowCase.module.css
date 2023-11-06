@@ -16,3 +16,9 @@
     row-gap: 40px;
     justify-content: center;
 }
+
+@media (max-width:350px) {
+    .page_title{
+        font-size: 28px;
+    }
+}

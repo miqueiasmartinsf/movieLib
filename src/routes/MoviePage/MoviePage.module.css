@@ -43,3 +43,39 @@
 .info h2 {
     margin-bottom: 10px;
 }
+
+
+@media (max-width:950px) {
+    .movie_details{
+        width: 600px;
+    }
+}
+
+@media (max-width:650px) {
+
+    .img_container img {
+        width: 280px;
+        height: 480px;
+    }
+
+    .img_container h1{
+        font-size: 28px;
+
+    }
+    
+    .movie_details{
+        width: 300px;
+    }
+
+    .movie_description{
+        width: 280px;
+        padding: 0px 15px;
+    }
+
+    .movie_description h2{
+        font-size: 18px;
+    }
+
+
+    
+}
