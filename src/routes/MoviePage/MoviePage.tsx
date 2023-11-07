@@ -1,7 +1,5 @@
 import styles from "./MoviePage.module.css";
 
-//types
-import { Movie } from "../../types/movieType";
 import { MovieDetailsType } from "../../types/movieDetailsType";
 import { ReactElement } from "react";
 
