@@ -1,7 +1,6 @@
 import styles from "./ShowCase.module.css";
 
 import { ReactElement } from "react";
-import { ReactNode } from "react";
 
 //Hooks
 import { useEffect, useState } from "react";
